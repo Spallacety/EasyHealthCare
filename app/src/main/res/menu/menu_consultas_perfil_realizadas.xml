@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/excluirConsulta"
+        android:title="Excluir consulta"
+        android:icon="@drawable/delete"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/listaMedicamento"
+        android:title="Adicionar medicamento"
+        android:icon="@drawable/syringe"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/listaExame"
+        android:title="Adicionar exame"
+        android:icon="@drawable/treatment"
+        app:showAsAction="always">
+    </item>
+</menu>

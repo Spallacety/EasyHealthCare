@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.edu.ifpi.easyhealthcare">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/heart_monitor"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".TelaPrincipal"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NovaPessoa"
+            android:label="@string/inserir_dados"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Intro"
+            android:label="@string/bem_vindo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Perfil"
+            android:label="@string/perfil"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditarDados"
+            android:label="@string/editar_dados"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Sobre"
+            android:label="@string/sobre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ConsultaPerfilNaoRealizada"
+            android:label="@string/consulta_perfil"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NovaConsulta"
+            android:label="@string/novo_agendamento"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Consultas"
+            android:label="@string/consultas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ConsultaPerfilRealizada"
+            android:label="@string/consulta_perfil"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditarConsulta"
+            android:label="@string/editar_consulta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrescricaoPerfil"
+            android:label="@string/prescricao"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Prescricoes"
+            android:label="@string/prescricoes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".PrescricaoPerfilConsulta"
+            android:label="@string/prescricao"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NovaPrescricao"
+            android:label="@string/inserir_prescricao"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".EditarPrescricao"
+            android:label="@string/editar_prescricao"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".PrescricoesConsulta"
+            android:label="@string/prescricoes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Exames"
+            android:label="@string/exames"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ExamePerfil"
+            android:label="@string/exame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ExamesConsulta"
+            android:label="@string/exames"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ExamePerfilConsulta"
+            android:label="@string/exame"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".NovoExame"
+            android:label="@string/novo_exame"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".EditarExame"
+            android:label="@string/editar_exame"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+    </application>
+
+</manifest>

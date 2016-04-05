@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.edu.ifpi.easyhealthcare.TelaPrincipal">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/gradient_dark">
+        <TextView
+            android:id="@+id/ola"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="@string/ola"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/menuConsultas"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/menu_gradient">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="14dp" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/doctor"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/principal_consultas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:paddingStart="70dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:text="@string/consultas"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/menuExames"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/menu_gradient">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="14dp" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bodyscan"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/principal_exames"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:paddingStart="70dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:text="@string/exames"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/menuPrescricoes"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/menu_gradient">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="14dp" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pill"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/principal_prescricoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:paddingStart="70dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:text="@string/prescricoes"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/menuPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/menu_gradient">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="14dp" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/profile"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/principal_perfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:paddingStart="70dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:text="@string/perfil"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/menuSobre"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/menu_gradient">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="14dp" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/info"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/principal_sobre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:paddingStart="70dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:text="@string/sobre"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>
