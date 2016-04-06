@@ -17,5 +17,3 @@ As funções do aplicativo são feitas mesclando o uso dos métodos das classes 
 O arquivo ".apk" está disponibilizado para teste no diretório inicial do projeto aqui no GitHub.
 
 by Lucas Rodrigues
-
-https://cloud.githubusercontent.com/assets/16406010/14331744/f9555862-fc1c-11e5-8f24-af18379e29d5.png
