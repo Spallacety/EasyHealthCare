@@ -18,4 +18,4 @@ O arquivo ".apk" está disponibilizado para teste no diretório inicial do proje
 
 by Lucas Rodrigues
 
-![alt tag](http://s23.postimg.org/s9wt30wbu/healthcare.jpg)
+https://cloud.githubusercontent.com/assets/16406010/14331744/f9555862-fc1c-11e5-8f24-af18379e29d5.png
